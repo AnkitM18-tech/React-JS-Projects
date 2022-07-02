@@ -1,7 +1,8 @@
 import React from "react";
 import Birthday from "./birthday-reminder/Birthday";
+import ToursApp from "./tours/ToursApp";
 function App() {
-  return <Birthday />;
+  return <ToursApp />;
 }
 
 export default App;
