@@ -4,7 +4,8 @@ import ReactDOM from "react-dom";
 // import "./tours/index.css";
 // import "./reviews/index.css";
 // import "./accordion/index.css";
-import "./menu/index.css";
+// import "./menu/index.css";
+import "./tabs/index.css";
 import App from "./App";
 
 ReactDOM.render(

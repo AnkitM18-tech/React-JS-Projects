@@ -4,8 +4,9 @@ import ToursApp from "./tours/ToursApp";
 import ReviewsApp from "./reviews/ReviewsApp";
 import AccordionApp from "./accordion/AccordionApp";
 import MenuApp from "./menu/MenuApp";
+import TabsApp from "./tabs/TabsApp";
 function App() {
-  return <MenuApp />;
+  return <TabsApp />;
 }
 
 export default App;
