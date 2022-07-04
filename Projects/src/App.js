@@ -5,8 +5,9 @@ import ReviewsApp from "./reviews/ReviewsApp";
 import AccordionApp from "./accordion/AccordionApp";
 import MenuApp from "./menu/MenuApp";
 import TabsApp from "./tabs/TabsApp";
+import SliderApp from "./slider/SliderApp";
 function App() {
-  return <TabsApp />;
+  return <SliderApp />;
 }
 
 export default App;

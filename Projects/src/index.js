@@ -5,7 +5,8 @@ import ReactDOM from "react-dom";
 // import "./reviews/index.css";
 // import "./accordion/index.css";
 // import "./menu/index.css";
-import "./tabs/index.css";
+// import "./tabs/index.css";
+import "./slider/index.css";
 import App from "./App";
 
 ReactDOM.render(
