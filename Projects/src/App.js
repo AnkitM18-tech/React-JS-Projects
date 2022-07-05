@@ -6,8 +6,9 @@ import AccordionApp from "./accordion/AccordionApp";
 import MenuApp from "./menu/MenuApp";
 import TabsApp from "./tabs/TabsApp";
 import SliderApp from "./slider/SliderApp";
+import LoremIpsumApp from "./lorem-ipsum/LoremIpsumApp";
 function App() {
-  return <SliderApp />;
+  return <LoremIpsumApp />;
 }
 
 export default App;
