@@ -8,7 +8,8 @@ import ReactDOM from "react-dom";
 // import "./tabs/index.css";
 // import "./slider/index.css";
 // import "./lorem-ipsum/index.css";
-import "./color-generator/index.css";
+// import "./color-generator/index.css";
+import "./grocery-bud/index.css";
 import App from "./App";
 
 ReactDOM.render(

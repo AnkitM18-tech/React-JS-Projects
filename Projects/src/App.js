@@ -8,8 +8,9 @@ import TabsApp from "./tabs/TabsApp";
 import SliderApp from "./slider/SliderApp";
 import LoremIpsumApp from "./lorem-ipsum/LoremIpsumApp";
 import ColorGeneratorApp from "./color-generator/ColorGeneratorApp";
+import GroceryApp from "./grocery-bud/GroceryApp";
 function App() {
-  return <ColorGeneratorApp />;
+  return <GroceryApp />;
 }
 
 export default App;
