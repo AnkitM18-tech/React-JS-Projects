@@ -12,11 +12,14 @@ import ReactDOM from "react-dom";
 // import "./grocery-bud/index.css";
 import "./navbar/index.css";
 import "./sidebar-modal/index.css";
+import { AppProvider } from "./sidebar-modal/context";
 import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppProvider>
+      <App />
+    </AppProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
