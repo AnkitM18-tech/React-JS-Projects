@@ -9,8 +9,9 @@ import SliderApp from "./slider/SliderApp";
 import LoremIpsumApp from "./lorem-ipsum/LoremIpsumApp";
 import ColorGeneratorApp from "./color-generator/ColorGeneratorApp";
 import GroceryApp from "./grocery-bud/GroceryApp";
+import NavBarApp from "./navbar/NavBarApp";
 function App() {
-  return <GroceryApp />;
+  return <NavBarApp />;
 }
 
 export default App;
