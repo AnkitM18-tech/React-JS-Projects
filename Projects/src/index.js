@@ -11,6 +11,7 @@ import ReactDOM from "react-dom";
 // import "./color-generator/index.css";
 // import "./grocery-bud/index.css";
 import "./navbar/index.css";
+import "./sidebar-modal/index.css";
 import App from "./App";
 
 ReactDOM.render(

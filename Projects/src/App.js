@@ -10,8 +10,9 @@ import LoremIpsumApp from "./lorem-ipsum/LoremIpsumApp";
 import ColorGeneratorApp from "./color-generator/ColorGeneratorApp";
 import GroceryApp from "./grocery-bud/GroceryApp";
 import NavBarApp from "./navbar/NavBarApp";
+import SideBarApp from "./sidebar-modal/SideBarApp";
 function App() {
-  return <NavBarApp />;
+  return <SideBarApp />;
 }
 
 export default App;
