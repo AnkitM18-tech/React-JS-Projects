@@ -11,8 +11,9 @@ import ColorGeneratorApp from "./color-generator/ColorGeneratorApp";
 import GroceryApp from "./grocery-bud/GroceryApp";
 import NavBarApp from "./navbar/NavBarApp";
 import SideBarApp from "./sidebar-modal/SideBarApp";
+import StripeApp from "./stripe-submenus/StripeApp";
 function App() {
-  return <SideBarApp />;
+  return <StripeApp />;
 }
 
 export default App;

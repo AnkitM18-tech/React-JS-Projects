@@ -10,9 +10,11 @@ import ReactDOM from "react-dom";
 // import "./lorem-ipsum/index.css";
 // import "./color-generator/index.css";
 // import "./grocery-bud/index.css";
-import "./navbar/index.css";
-import "./sidebar-modal/index.css";
-import { AppProvider } from "./sidebar-modal/context";
+// import "./navbar/index.css";
+// import "./sidebar-modal/index.css";
+import "./stripe-submenus/index.css";
+// import { AppProvider } from "./sidebar-modal/context";
+import { AppProvider } from "./stripe-submenus/context";
 import App from "./App";
 
 ReactDOM.render(
