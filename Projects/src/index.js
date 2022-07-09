@@ -13,8 +13,10 @@ import ReactDOM from "react-dom";
 // import "./navbar/index.css";
 // import "./sidebar-modal/index.css";
 import "./stripe-submenus/index.css";
+import "./cart/index.css";
 // import { AppProvider } from "./sidebar-modal/context";
-import { AppProvider } from "./stripe-submenus/context";
+// import { AppProvider } from "./stripe-submenus/context";
+import { AppProvider } from "./cart/context";
 import App from "./App";
 
 ReactDOM.render(

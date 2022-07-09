@@ -12,8 +12,9 @@ import GroceryApp from "./grocery-bud/GroceryApp";
 import NavBarApp from "./navbar/NavBarApp";
 import SideBarApp from "./sidebar-modal/SideBarApp";
 import StripeApp from "./stripe-submenus/StripeApp";
+import CartApp from "./cart/CartApp";
 function App() {
-  return <StripeApp />;
+  return <CartApp />;
 }
 
 export default App;
