@@ -65,7 +65,7 @@ const reducer = (state, action) => {
             return { ...cartItem, amount: cartItem.amount - 1 };
           }
         }
-        return cartItem;
+        return cartItem; // this is needed to return the un-toggled items.
       })
       .filter((cartItem) => cartItem.amount !== 0);
     return { ...state, cart: tempCart };
