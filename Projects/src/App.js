@@ -13,8 +13,9 @@ import NavBarApp from "./navbar/NavBarApp";
 import SideBarApp from "./sidebar-modal/SideBarApp";
 import StripeApp from "./stripe-submenus/StripeApp";
 import CartApp from "./cart/CartApp";
+import CockTailsApp from "./cocktails/CockTailsApp";
 function App() {
-  return <CartApp />;
+  return <CockTailsApp />;
 }
 
 export default App;

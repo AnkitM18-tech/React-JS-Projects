@@ -12,8 +12,9 @@ import ReactDOM from "react-dom";
 // import "./grocery-bud/index.css";
 // import "./navbar/index.css";
 // import "./sidebar-modal/index.css";
-import "./stripe-submenus/index.css";
-import "./cart/index.css";
+// import "./stripe-submenus/index.css";
+// import "./cart/index.css";
+import "./cocktails/index.css";
 // import { AppProvider } from "./sidebar-modal/context";
 // import { AppProvider } from "./stripe-submenus/context";
 import { AppProvider } from "./cart/context";
@@ -21,9 +22,10 @@ import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppProvider>
+    {/* <AppProvider>
       <App />
-    </AppProvider>
+    </AppProvider> */}
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
