@@ -17,15 +17,15 @@ import ReactDOM from "react-dom";
 import "./cocktails/index.css";
 // import { AppProvider } from "./sidebar-modal/context";
 // import { AppProvider } from "./stripe-submenus/context";
-import { AppProvider } from "./cart/context";
+// import { AppProvider } from "./cart/context";
+import { AppProvider } from "./cocktails/context";
 import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <AppProvider>
+    <AppProvider>
       <App />
-    </AppProvider> */}
-    <App />
+    </AppProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
